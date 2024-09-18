@@ -17,6 +17,8 @@ This tool allows you to quickly inject Spyro, Flame, and Sparx skins into suppor
 
 There are also color wheels to test different flame tip colors, and sparx glow colors.
 
+**You must launch the Tester ISO in one of the supported emulators to use the Skin Tester**
+
 
 ### Supported Tester Emulators
 - [Duckstation 0.1 5936](https://github.com/stenzek/duckstation/releases/tag/latest)  

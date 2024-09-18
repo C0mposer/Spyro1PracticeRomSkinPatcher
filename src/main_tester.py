@@ -272,7 +272,7 @@ if __name__ == "__main__":
                 
                 dpg.add_spacing(count=5)
                 
-        #! ROM Patcher (Seperate Program)
+        #! ROM Patcher (Seperate Program Now)
         #     #Tab 5
         #     with dpg.tab(label="Inject Skins into Practice Rom"):
         #         dpg.add_text("~ Inject Skins into Practice Rom ~", color=(0x0, 0xFF, 00, 0xFF))
