@@ -297,17 +297,17 @@ if __name__ == "__main__":
         #         dpg.hide_item("rom_notification_text")
 
         #         dpg.add_spacing(count=250)
-        # # Add an emulator selection option
-        # dpg.add_text("Select an Emulator:")
-        # dpg.add_radio_button(tag="emulator_choice", items=("Duckstation 0.1-5936", "Bizhawk 2.6.1"), default_value="Duckstation 0.1-5936", callback=select_emulator_callback, horizontal=True)
-        # # Add a larger button to inject, across all tabs
-        # dpg.add_button(label="Inject Into Duckstation 0.1-5936", tag="inject_button", callback=inject_button_callback, width=300, height=50)
+        # Add an emulator selection option
+        dpg.add_text("Select an Emulator:")
+        dpg.add_radio_button(tag="emulator_choice", items=("Duckstation 0.1-5936", "Bizhawk 2.6.1"), default_value="Duckstation 0.1-5936", callback=select_emulator_callback, horizontal=True)
+        # Add a larger button to inject, across all tabs
+        dpg.add_button(label="Inject Into Duckstation 0.1-5936", tag="inject_button", callback=inject_button_callback, width=300, height=50)
 
-        # # Add notification text (initially hidden)
-        # dpg.add_text("Injection Complete!", tag="notification_text")
-        # dpg.hide_item("notification_text")
+        # Add notification text (initially hidden)
+        dpg.add_text("Injection Complete!", tag="notification_text")
+        dpg.hide_item("notification_text")
         
-        # dpg.set_primary_window(main_window, True)
+        dpg.set_primary_window(main_window, True)
 
     dpg.create_viewport(title='Skin Tester', width=815, height=1040)
     dpg.setup_dearpygui()
