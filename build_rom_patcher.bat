@@ -1,0 +1,1 @@
+python -m PyInstaller src/main_rom_patcher.py
