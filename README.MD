@@ -3,7 +3,8 @@
 ## Patcher
 This tool allows you to patch your own custom spyro skin into the [Spyro 1 Practice Rom](https://github.com/C0mposer/Spyro-1-Practice-Codes)
 
-Simply choose the practice rom .bin file, and the .bmp of the spyro skin you'd like to patch into it.  
+Simply choose the the .bmp of your custom spyro skin, and your practice rom .bin file.  
+
 Once you have patched the rom, you can select your skin in the game by choosing the **SPYRO SKIN CUSTOM** option.
 
 ## Tester
